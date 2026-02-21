@@ -7,7 +7,7 @@ const button = document.getElementById("login-btn").addEventListener("click", fu
 
     if(number === "01234567890" && pin === "1234"){
         alert("Login successful!");
-        window.location.assign="./home.html";
+        window.location.assign("./home.html");
     } else {
         alert("Invalid number or PIN. Please try again.");
     }
